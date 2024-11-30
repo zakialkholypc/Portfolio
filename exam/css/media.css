@@ -1,0 +1,51 @@
+@media screen and (min-width: 992px) {
+  #services h2::before {
+    left: 0;
+    transform: translatex(-12%);
+  }
+  .services-title {
+    text-align: left;
+  }
+  .carousel-control-prev {
+    visibility: visible !important;
+  }
+  .carousel-control-next {
+    visibility: visible !important;
+  }
+  .carousel-inner {
+    width: 750px;
+    margin: auto;
+  }
+  .title {
+    font-size: 100px;
+  letter-spacing: -3px;
+
+  }
+  .subtitle{
+    font-size: 18px;
+  }
+  .nav-link:focus,
+  .nav-link:hover,
+  .nav-link.my-border-edite,
+  .nav-link.my-border-edite.active {
+      color: white;
+  }
+.my-border-edite{
+    color: white;
+
+}
+  .unscrolled-white {
+      --white-unscrolled: rgb(0, 0, 0);
+  }
+
+
+
+}
+@media screen and (min-width: 1200px) {
+  .carousel-control-prev {
+    transform: translateX(-10%) !important;
+  }
+  .carousel-control-next {
+    transform: translateX(10%) !important;
+  }
+}
